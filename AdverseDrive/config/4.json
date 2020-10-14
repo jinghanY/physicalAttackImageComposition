@@ -1,0 +1,12 @@
+{
+ "task"                 : "left_turn",
+ "town"                 : "Town01_nemesisD",
+ "GPU"                  : 0,
+ "intersection"         : "70_63",
+ "port"                 : 2300,
+ "random_points"        : 400,
+ "search_points"        : 600,
+ "adversary_name"       : "adversary_",
+ "acquisition_function" : "ei",
+ "overwrite_experiment" : true
+}

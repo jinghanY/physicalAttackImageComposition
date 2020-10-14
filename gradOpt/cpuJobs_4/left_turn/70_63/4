@@ -1,0 +1,1 @@
+python3 imitation_fly_auto_continue4/run.py -c config_4/left_turn/70_63/left_turn-70_63-4.json >> out_files/left_turn/70_63/4.txt

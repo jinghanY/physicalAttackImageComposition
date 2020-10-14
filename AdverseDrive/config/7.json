@@ -1,0 +1,12 @@
+{
+ "task"                 : "intersection-right",
+ "town"                 : "Town01_nemesisG",
+ "GPU"                  : 0,
+ "intersection"         : "140_89",
+ "port"                 : 2600,
+ "random_points"        : 400,
+ "search_points"        : 600,
+ "adversary_name"       : "adversarybeta_",
+ "acquisition_function" : "ei",
+ "overwrite_experiment" : true
+}

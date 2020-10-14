@@ -1,0 +1,16 @@
+{
+"task":"left_turn/",
+"intersection":"70_63/",
+"LR":"0.1",
+"randomSeed":"1801",
+"step":"100",
+"stepSize1":"10",
+"stepSize2":"1",
+"stepSize3":"1",
+"adversary":{
+"rectangle1":["rot","pos","width","length"]
+},
+"color":{
+"rectangle1":["r","g","b"]
+}
+}
