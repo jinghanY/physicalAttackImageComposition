@@ -48,7 +48,7 @@ docker pull jinghan20/carla:v3
 ```
 You can run the dockerized version of carla with:
 ```
-.\run_carla_docker.sh
+./run_carla_docker.sh
 ```
 
 ### Load adversarial pattern
