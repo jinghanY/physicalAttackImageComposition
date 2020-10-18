@@ -107,6 +107,8 @@ First, run the scripts to create the configuration files and scripts that contai
 ```
 The three numbers are the numbers that we use to discretize the parameter space. 
 
+Note that: After trying the example in the calibration, move the datasets in  ```datasets``` in release and put them, ```datasets_1, datasets_2, datasets_3, datasets_4```, under the ```calibration/```. You can either get your spatial and color mappings yourself or move to the next step with using our datasets. 
+
 ##### Start GradOpt jobs.
 After running this bash script, you can find the running command for a scenario under ```Jobs_noParameter ```. (The *noParameter* is the number of parameters of the perturbation where we have 4, 7, 14, 21, 28, 35. You should also specify the task and scenario, *taskName* and *scenarioName* , of the jobs. )
 
