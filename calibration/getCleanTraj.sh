@@ -14,7 +14,7 @@ trajectoryNum=(1)
 for i in "${!steerNoise[@]}";do
     ./find_intersection_numbers_batch.sh ${tasks[0]} ${Intersections[0]} ${min_frames[0]} ${max_frames[0]} ${adversary_names[0]} $townName $portNum $trajectoryNum
     ./runGetFrames.sh ${tasks[0]} ${Intersections[0]} ${min_frames[0]} ${max_frames[0]} ${adversary_names[0]} $townName $portNum $trajectoryNum
-    ./after.sh ${tasks[0]} ${Intersections[0]} ${min_frames[0]} ${max_frames[0]} ${adversary_names[0]} $townName $portNum $trajectoryNum
+    #./after.sh ${tasks[0]} ${Intersections[0]} ${min_frames[0]} ${max_frames[0]} ${adversary_names[0]} $townName $portNum $trajectoryNum
     trajectoryNum=$((trajectoryNum+1))
 done
 

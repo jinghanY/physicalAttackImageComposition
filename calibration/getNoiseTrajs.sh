@@ -11,7 +11,7 @@ steerNoise=(2 3 4)
 trajectoryNum=(2 3 4) 
 for i in "${!steerNoise[@]}";do
     ## If you want to define the random noise yourself, please uncomment the two lines below.
-    #./find_intersection_numbers_batch.sh ${tasks[0]} ${Intersections[0]} ${min_frames[0]} ${max_frames[0]} ${adversary_names[0]} $townName $portNum $trajectoryNum
+    #cp -r datasets_1/${tasks[0]}/${Intersections[0]} datasets_$trajectoryNum/${tasks[0]}
     #python get_steer_selfCorrection.py -n ${steerNoise[i]} -j $trajectoryNum -t ${tasks[0]} -i ${Intersections[0]} -a ${min_frames_noise[0]} -b ${max_frames[0]}
     ./runGetFrames.sh ${tasks[0]} ${Intersections[0]} ${min_frames[0]} ${max_frames[0]} ${adversary_names[0]} $townName $portNum $trajectoryNum
     ./after.sh ${tasks[0]} ${Intersections[0]} ${min_frames[0]} ${max_frames[0]} ${adversary_names[0]} $townName $portNum $trajectoryNum
