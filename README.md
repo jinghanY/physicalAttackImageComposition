@@ -1,5 +1,7 @@
 # Finding Physical Adversarial Examples for Autonomous Driving with Fast and Differentiable Image Compositing
 
+[[arXiv]](http://arxiv.org/abs/2010.08844)   **paper**
+
 We propose a scalable and efficient approach for finding adversarial physical modifications, using a differentiable approximation for the mapping from environmental modifications—namely, rectangles drawn on the road—to the corresponding video inputs to the controller network. Given the color, location, position, and orientation parameters of the rectangles, our mapping composites them onto pre-recorded video streams of the original environment. Our mapping accounts for geometric and color variations, is differentiable with respect to rectangle parameters, and uses multiple original video streams obtained by varying the driving trajectory. When combined with a neural network-based controller, our approach allows the design of adversarial modifications through end-to-end gradient-based optimization.
 
 |<center>Conceptual Overview</center> | 
